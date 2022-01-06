@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto carrito 3</title>
+
+    <link rel="stylesheet" href="css/normalize.css">
+
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <main class="main">
+        <section id="buttons" class="buttons">
+            <a class="button" data-id="1" href="#">Comprar teclado</a>
+            <a class="button" data-id="2" href="#">Comprar mouse</a>
+            <a class="button" data-id="3" href="#">Comprar cooler</a>
+            <a class="button" data-id="4" href="#">Comprar auriculares</a>
+            <a class="button" data-id="5" href="#">Comprar monitor</a>
+            <a class="button" data-id="6" href="#">Comprar pad</a>
+            <a class="button" data-id="7" href="#">Comprar gabinete</a>
+            <a class="button" data-id="8" href="#">Comprar rooter</a>
+        </section>
+        <section class="cart-section">
+            <div class="cart">
+                <ul>
+                    <li class="cart-list">
+                            <img src="images/shopping-cart.png" id="img-carrito" class="cart-img">
+                            <div id="carrito" class="carrito">
+                                    
+                                    <table id="lista-carrito" class="cart-table">
+                                        <thead>
+                                            <tr>
+                                                <th>Nombre</th>
+                                                <th></th>
+                                            </tr>
+                                        </thead>
+                                        <tbody></tbody>
+                                    </table>
+
+                                    <a href="#" id="vaciar-carrito" class="clean-cart button">Vaciar Carrito</a>
+                            </div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+    </main>
+    <script src="app.js"></script>
+</body>
+</html>
